@@ -53,10 +53,10 @@ def amortization(principal, annual_rate, years, extra_payments):
     print("Time to pay off: ", repayment_time // 12, "years and", repayment_time % 12, "months" )
 
     
-principal = 410000
-annual_rate = 6.6
-years = 30
-extra_payments = {8:1000, 12:1000, 18:1000}
+principal = 176000
+annual_rate = 3.125
+years = 20
+extra_payments = {1:3000, 2:1000, 24:1000, }
 
 amortization(principal, annual_rate, years, extra_payments)
 
